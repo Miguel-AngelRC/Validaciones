@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Signo zodiacal</title>
+    <script src="js/zodiacal.js"></script>
+    <link rel="stylesheet" href="css/estilosBotones.css">
+    <link rel="stylesheet" href="css/estidosZodiacal.css">
+
+  </head>
+  <body>
+    <div id="contenedor">
+    <form >
+      <label >Ingrese su fecha de nacimiento
+        <input  id="fecha" type="date" name="txtFec" maxlength="10" size="12" />
+      </label>
+      <input class="btn" type="button" onClick="validaFechaMenor(txtFec);" value="Mi signo"/>
+    </form>
+  </div>
+
+    <div id="miSigno">
+      <p id="signo">Tú signo es</p>
+      <div id="color">Color</div>
+    </div>
+    
+  </body>
+</html>

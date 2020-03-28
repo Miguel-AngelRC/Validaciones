@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    position: absolute;
+    top: 5vh;
+    font-size: 50px;
+    color: tomato;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+#contenedor{
+    position: relative;
+    height: 100vh;
+    text-align: center;
+}
+
+form{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+}

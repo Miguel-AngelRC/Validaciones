@@ -1,0 +1,28 @@
+<!DOCTYPE>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="PQG">
+    <meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="js/validaRFC.js"></script>
+	<link rel="stylesheet" href="css/estilosEjercicio.css">
+
+<title>Control submit por evento formulario</title>
+</head>
+<body>
+	<h1>Validar RFC</h1>
+
+    <h2 id="resultado">Hola ingresa tu RFC y da clic en el botón</h2>
+
+
+	<form class="rfc">
+		RFC <input class="rfc" id="entrada" type="text" name="txtRFC" maxlength="13" size="15" value=""/>
+		<button class="btn" type="button" onClick="valida(txtRFC);"> Ejecutar Script</button>
+	</form>
+
+	<form action="index.html">
+		<button class="btn" >Volver</button>
+	  </form>
+</body>
+</html>

@@ -1,0 +1,60 @@
+@import url(estilosBotones.css);
+
+h1{
+    color:rgb(37, 131, 253);
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+h2{
+    color:rgb(78, 154, 253);
+}
+
+#resultado{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+p{
+    display: inline;
+    color: tomato;
+    font-weight: bolder;
+}
+
+.rfc{
+    margin-top: 8px;
+    font-size: 40px;
+}
+
+/* Estilos para Tablas de multiplicar */
+
+#formulario{
+    font-size: 40px;
+    color: rgb(37, 131, 253);
+    margin-bottom: 0px;
+}
+
+select{
+    font-size: 25px;
+    color: rgb(86, 185, 251);
+}
+
+table{
+    font-size: 25px;
+    color: rgb(37, 131, 253);
+    position: relative;
+    margin-top: 50px;
+    left: 50%;
+    transform: translateX(-50%);    
+}
+
+#contenido{
+    text-align: center;
+}
+
+#volver{
+    margin-top: 0px;
+}
